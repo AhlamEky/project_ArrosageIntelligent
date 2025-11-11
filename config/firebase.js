@@ -6,7 +6,7 @@ import { getAuth } from "firebase/auth";
 import { getDatabase } from "firebase/database";
 
 // ✅ Ton vrai projet Firebase analytique :
-const firebaseConfig = {
+/*const firebaseConfig = {
   apiKey: "AIzaSyDkIeKM32iqK1IdIjb6WB3v1POPealWHNY",
   authDomain: "arrosageintelligent.firebaseapp.com",
   databaseURL: "https://arrosageintelligent-default-rtdb.europe-west1.firebasedatabase.app",
@@ -25,4 +25,4 @@ const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 export const auth = getAuth(app);
 export const database = getDatabase(app);
 
-export default app;
+export default app;*/
